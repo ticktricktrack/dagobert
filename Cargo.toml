@@ -1,15 +1,15 @@
 [package]
-name = "duckcoin_1"
+name = "dagobert_1"
 version = "1.0.0"
 authors = ["Rainer Kuhn <ticktricktrack@gmail.com>"]
 edition = "2018"
 
 [lib]
-name = "duckcoinlib"
+name = "dagobertlib"
 path = "src/lib.rs"
 
 [[bin]]
-name = "duckcoin"
+name = "dagobert"
 path = "src/main.rs"
 
 [dependencies]
