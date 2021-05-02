@@ -1,0 +1,17 @@
+[package]
+name = "duckcoin_1"
+version = "1.0.0"
+authors = ["Rainer Kuhn <ticktricktrack@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "duckcoinlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "duckcoin"
+path = "src/main.rs"
+
+[dependencies]
+hex = "0.3.2"
+crypto-hash = "0.3.3"
